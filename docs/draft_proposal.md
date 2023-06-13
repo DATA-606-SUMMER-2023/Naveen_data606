@@ -19,6 +19,7 @@ SOURCE: https://www.kaggle.com/amitabhajoy/bengaluru-house-price-data
 
 # Features:
 Columns
+
 'area_type'    : Arear in which the house is located
 
 'availability' : The availability date of the house 
@@ -36,6 +37,8 @@ Columns
 'balcony',    : No of balcony does a house have.
 
 'price'       : Price of the house in lakhs(INR_ Indian Rupees)
+
+I'm going to take the listed columns to build the model: 'location',	'size',	'total_sqft',	'bath',	'price'.
 
 ## Techniques and Models:
 
@@ -68,6 +71,3 @@ This project is important and useful for real estate buyers, sellers, agents, in
 ## References
 •	The Flask documentation offers detailed information on creating a Flask server and handling HTTP requests. https://flask.palletsprojects.com/en/2.3.x/
 •	https://www.kaggle.com/amitabhajoy/bengaluru-house-price-data
-
-
-
