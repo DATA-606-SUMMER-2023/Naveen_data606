@@ -4,10 +4,10 @@
 # Real Estate Price Predictor
 
 # Introduction
-This data science project about the creating a real estate price prediction website step by step. First, we will create a model with sklearn and linear regression using the Bangalore home prices dataset from kaggle.com. The second step would be to create a Python Flask server that serves http requests using the stored model. The third component is a website developed in html, CSS, and JavaScript that allows users to enter information such as home square footage, bedrooms, and so on, and then calls a Python Flask server to receive the anticipated price. Almost all data science principles will be covered during model creation, including data load and cleaning, outlier identification and removal, feature engineering, dimensionality reduction, gridsearchcv for hyperparameter tuning, and k fold cross validation etc. The tools which used in the project.
+This data science project about the creating a real estate price prediction website step by step. First, we will create a model with sklearn and linear regression using the Bangalore home prices dataset from kaggle.com. Almost all data science principles will be covered during model creation, including data load and cleaning, outlier identification and removal, feature engineering, dimensionality reduction, gridsearchcv for hyperparameter tuning, and k fold cross validation etc. The tools which used in the project.
 
 # Project Overview
-The aim of this project is to build a real estate price prediction and also creating a website. It involves creating a model using linear regression and sklearn, cleaning and preparing the data, and implementing data science principles like outlier removal and feature engineering. A Python Flask server will serve as the backend to handle HTTP requests and provide predictions. The website, developed using HTML, CSS, and JavaScript, will allow users to input property details and receive predicted prices from the Flask server. The project covers various data science techniques and provides an end-to-end solution for real estate price prediction.
+The aim of this project is to build a real estate price prediction. It involves creating a model using linear regression and sklearn, cleaning and preparing the data, and implementing data science principles like outlier removal and feature engineering. The project covers various data science techniques and provides an end-to-end solution for real estate price prediction.
 Dataset has 13,320 rows and 9 columns.
 This dataset is from Kaggle created by amitabhajoy, is having the data of size, 904 KB.
 Dataset is downloaded from here: 
@@ -58,10 +58,8 @@ This project is important and useful for real estate buyers, sellers, agents, in
 
 # Questions to be answered:
 1.	How accurate are the real estate price predictions provided by the developed model compared to the actual market prices, and what is the overall performance evaluation of the model in terms of mean squared error or R-squared value?
-2.	How well does the real estate price prediction website handle a high volume of concurrent user requests, and what is the average response time for serving predictions? Additionally, what measures have been implemented to ensure the scalability and robustness of the Flask server?
-3.	How well does the Flask server handle HTTP requests and serve predictions in a timely manner?
-4.	How efficiently does the model perform with dimensionality reduction techniques, balancing predictive power and computational complexity?
-5.	How effective is the hyperparameter tuning using GridSearchCV in improving the model's performance?
+2.	How efficiently does the model perform with dimensionality reduction techniques, balancing predictive power and computational complexity?
+3.	How effective is the hyperparameter tuning using GridSearchCV in improving the model's performance?
 
 
 # References
